@@ -1,0 +1,131 @@
+body{
+	overflow-x: hidden;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+	margin-bottom: 0;
+}
+a{
+	text-decoration: none;
+}
+ol,
+li{
+	list-style: none;
+}
+.flex{
+	display: flex;
+}
+/*===================================
+		Hotline Section Start
+====================================*/
+#hotline{
+	background: #444444;
+	padding: 10px 0;
+}
+#hotline p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: #dddddd;
+}
+/* hotline left side */
+#hotline .left .currency{
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+}
+/* hotline right side */
+#hotline .right{
+	margin-left: auto;
+}
+#hotline .right i{
+	font-size: 13px;
+	color: #dddddd;
+}
+#hotline .right .account{
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+}
+/*===================================
+		Hotline Section Start
+====================================*/
+/*===================================
+		Navbar Section Start
+====================================*/
+/* 
+	font-family: 'Raleway', sans-serif;
+*/
+/*===================================
+		Navbar Section Start
+====================================*/
+/*===================================
+		Hotline Section Start
+====================================*/
+
+/*===================================
+		Hotline Section Start
+====================================*/
+/*===================================
+		Hotline Section Start
+====================================*/
+
+/*===================================
+		Hotline Section Start
+====================================*/
+/*===================================
+		Hotline Section Start
+====================================*/
+
+/*===================================
+		Hotline Section Start
+====================================*/
+/*===================================
+		Hotline Section Start
+====================================*/
+
+/*===================================
+		Hotline Section Start
+====================================*/
+/*===================================
+		Hotline Section Start
+====================================*/
+
+/*===================================
+		Hotline Section Start
+====================================*/
+/*===================================
+		Hotline Section Start
+====================================*/
+
+/*===================================
+		Hotline Section Start
+====================================*/
+/*===================================
+		Hotline Section Start
+====================================*/
+
+/*===================================
+		Hotline Section Start
+====================================*/
+/*===================================
+		Hotline Section Start
+====================================*/
+
+/*===================================
+		Hotline Section Start
+====================================*/
+/*===================================
+		Hotline Section Start
+====================================*/
+
+/*===================================
+		Hotline Section Start
+====================================*/

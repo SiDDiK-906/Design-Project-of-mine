@@ -1,0 +1,9 @@
+$(".javas1").click(function(){
+    $(".jquery1").fadeToggle();
+})
+$(".javas2").click(function(){
+    $(".jquery2").fadeToggle();
+})
+$(".javas3").click(function(){
+    $(".jquery3").fadeToggle();
+})

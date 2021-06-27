@@ -1,0 +1,277 @@
+.title h2{
+    font-family: 'Bitter', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #111111;
+    text-align: center;
+}
+
+.title h2{
+    font-family: 'Bitter', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #111111;
+    text-align: center;
+}
+
+.title p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.menu-up{
+    width: 100%;
+    display: flex;
+}
+
+.menu-down{
+    width: 100%;
+}
+
+.menu-up .menu-img{
+    width: 50%;
+    position: relative;
+}
+
+.menu-up .menu-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.menu-up .menu-text{
+    width: 50%;
+    background: #ffffff;
+}
+
+.menu-up .menu-text .text-title{
+    text-align: center;
+}
+
+.menu-up .menu-text .text-title h2{
+    display: inline-block;
+    font-family: 'Bitter', serif;
+    font-size: 24px;
+    font-weight: 700;
+    background: #f89d20;
+    color: #111111; 
+    border: 1px solid #f89d20;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    clip-path: polygon(0 39%, 91% 5%, 100% 100%, 13% 100%);
+    padding-top: 30px;
+}
+
+.menu-up .menu-text .menu-price{
+    display: flex;
+    border-bottom: 1px dotted #444444;
+}
+
+.menu-up .menu-text .menu-price h4{
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111111;
+    margin-left: 65px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.menu-up .menu-text .menu-price h5{
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111111;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    margin-left: 55%;
+}
+
+.menu-up .menu-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    margin-top: 15px;
+    width: 680px;
+    text-align: left;
+}
+
+.menu-up .menu-text .cart{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 130px;
+}
+
+.menu-up .menu-text .cart a span{
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #f89d20;
+    border: 1px solid #f89d20;
+    border-radius: 30px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    transition: .7s;
+}
+
+.menu-up .menu-text .cart a i{
+    font-size: 34px;
+    color: #444444;
+    margin-right: 20px;
+    transition: .7s;
+}
+
+.menu-up .menu-text .cart span:hover{
+    background: #f89d20;
+    color: #111111;
+}
+
+.menu-up .menu-text .cart a:hover i{
+    color: #f89d20;
+}
+
+.menu-down{
+    display: flex;
+}
+
+.menu-down .menu-img{
+    width: 50%;
+}
+
+.menu-down .menu-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.menu-down .menu-text{
+    width: 50%;
+    background: #ffffff;
+    padding-bottom: 55px;
+}
+
+.menu-down .menu-text .text-title{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.menu-down .menu-text .text-title h2{
+    display: inline-block;
+    font-family: 'Bitter', serif;
+    font-size: 24px;
+    font-weight: 700;
+    background: #f89d20;
+    color: #111111; 
+    border: 1px solid #f89d20;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    clip-path: polygon(0 39%, 91% 5%, 100% 100%, 13% 100%);
+    padding-top: 30px;
+}
+
+.menu-down .menu-text .menu-price{
+    display: flex;
+    border-bottom: 1px dotted #444444;
+}
+
+.menu-down .menu-text .menu-price h4{
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111111;
+    margin-left: 65px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.menu-down .menu-text .menu-price h5{
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111111;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    margin-left: 55%;
+}
+
+.menu-down .menu-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    margin-top: 15px;
+    width: 680px;
+    text-align: left;
+}
+
+.menu-down .menu-text .cart{
+    margin-top: 120px;
+    margin-left: 75%;
+}
+
+.menu-down .menu-text .cart a{
+    display: inline-block;
+}
+
+.menu-down .menu-text .cart a span{
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #f89d20;
+    border: 1px solid #f89d20;
+    border-radius: 30px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    transition: .7s;
+}
+
+.menu-down .menu-text .cart a i{
+    font-size: 34px;
+    color: #444444;
+    margin-right: 20px;
+    transition: .7s;
+}
+
+.menu-down .menu-text .cart span:hover{
+    background: #f89d20;
+    color: #111111;
+}
+
+.menu-down .menu-text .cart a:hover i{
+    color: #f89d20;
+}
+
+.bb-custom-wrapper{
+    position: relative;
+}
+
+.bb-custom-wrapper nav{
+    position: absolute;
+    top: 0;
+    left: 85%;
+}
+
+.bb-custom-wrapper nav span, .menu-button{
+    width: 0;
+    height: 0;
+    padding: 15px 20px;
+    background: transparent;
+    color: #111111;
+    border: 1px solid #f89d20;
+    border-radius: 10px;
+    margin-left: 10px;
+    position: unset;
+    transition: .7s;
+}
+
+.bb-custom-wrapper nav span:hover, .menu-button:hover{
+    background: #f89d20;
+}

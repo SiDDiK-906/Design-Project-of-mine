@@ -1,0 +1,244 @@
+/*=============================
+	Common CSS Part Start
+==============================*/
+body{
+	overflow-x: hidden;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+	padding: 0;
+	margin: 0;
+}
+ul,
+ol{
+	list-style: none;
+}
+a{
+	text-decoration: none !important;
+}
+.flex{
+	display: flex;
+}
+/*=============================
+	Common CSS Part End
+==============================*/
+/*=============================
+		Main Part Start
+==============================*/
+.mobile_view{
+	display: none;
+}
+.main .relative{
+	position: relative;
+}
+/* Left Side */
+.main .left{
+	height: 100vh;
+	background: #63BA86;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 17%;
+	padding: 0 30px;
+}
+/* Left Side--logo part */
+.main .left .logo{
+	margin: 30px 0px 50px 0px;
+}
+.main .left .logo img{
+	width: 100%;
+	height: 100%;
+}
+.main .left .logo p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 26px;
+	color: #DAF3E4;
+}
+/* Left Side--menu part */
+.main .left .menu_bar ul li{
+	margin-bottom: 30px;
+}
+.main .left .menu_bar ul li:nth-child(1) a img{
+	width: 20%;
+}
+.main .left .menu_bar ul li:nth-child(3) a img{
+	width: 25%;
+}
+.main .left .menu_bar ul li:nth-child(4) a img{
+	width: 10%;
+}
+.main .left .menu_bar ul li a .same{
+	width: 7%;
+}
+.main .left .menu_bar ul li a span{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffffff;
+	margin-left: 10px;
+}
+/* Right Side */
+.main .right{
+	background: #F6FBF9;
+	margin-left: 4px;
+}
+/* Right Side--nav part */
+.main .right .nav{
+	background: #86C49E;
+	padding: 10px 0;
+	margin-bottom: 50px;
+}
+.main .right .nav p{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 40px;
+}
+.main .right .nav .text_box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 43%;
+}
+.main .right .nav .text_box input {
+	width: 300px;
+	height: 35px;
+	background: #FFFFFF;
+	border: 1px solid #63BA86;
+	box-sizing: border-box;
+	border-radius: 11px;
+	padding: 0 10px;
+}
+.main .right .nav .round{
+	height: 47px;
+	width: 47px;
+	border-radius: 50%;
+	background: #C4C4C4;
+	margin-left: 7%;
+}
+/* Right Side--Body part */
+.main .right .body .common .item {
+	background: #FFFFFF;
+	border: 2px solid #63BA86;
+	border-radius: 14px;
+	padding: 10px 50px 20px 10px;
+	margin: 0 70px 0 50px;
+	margin-bottom: 60px !important;
+}
+.main .right .body .common .item p{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	color: #3D8D5D;
+}
+.main .right .body .common .item img{
+	width: 13%;
+}
+.main .right .body .common .item h4{	
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	color: #3D8D5D;
+	margin-left: auto;
+}
+/* right side--middle--count */
+.main .right .body .first .item{
+	margin: 0px 40px 0 70px;
+}
+.main .right .body .first .patient {
+	border: none;
+}
+.main .right .body .first .gender {
+	border: none;
+	border-radius: 21px;
+	padding: 20px 50px 60px 20px;
+}
+.main .right .body .first .gender img {
+	width: 100%;
+}
+.main .right .body .first .gender p{
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+.main .right .body .first .gender .img{
+	position: relative;
+}
+.main .right .body .first .gender .img2{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.main .right .body .first .gender .img2 img{
+	width: 85%;
+}
+/* right side--middle--count */
+.main .right .body .middle{
+	margin-left: -30px;
+}
+.main .right .body .common .count .number{
+	margin-left: 47px;
+}
+.main .right .body .common .count {
+	padding: 10px 15px 10px 15px;
+	border: 1px solid #63BA86;
+	box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 14px;
+}
+.main .right .body .common .count ul li{
+	margin-bottom: 10px;
+}
+/* right side--last--payment */
+.main .right .body .last{
+	margin-left: -30px;
+}
+.main .right .body .last .item{
+	margin: 0px 90px 0 30px;
+}
+.main .right .body .common .payment .number{
+	margin-left: 20px;
+}
+.main .right .body .common .payment {
+	padding: 20px 0px 20px 10px;
+	border: 1px solid #63BA86;
+	box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 14px;
+	margin: 0px 60px 0 30px;
+}
+.main .right .body .common .payment ul li{
+	margin-bottom: 50px;
+}
+/*=============================
+		Main Part End
+==============================*/
+/*=============================
+		Main Part Start
+==============================*/
+
+/*=============================
+		Main Part End
+==============================*/
+/*=============================
+		Main Part Start
+==============================*/
+
+/*=============================
+		Main Part End
+==============================*/

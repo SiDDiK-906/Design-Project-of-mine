@@ -1,0 +1,1421 @@
+/*====================================
+            Common CSS Start
+=====================================*/
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+/*====================================
+            Common CSS End
+=====================================*/
+/*====================================
+        Home Section Start
+=====================================*/
+.home{
+        overflow: hidden;
+        height: 100vh;
+}
+.home img{
+        width: 140%;
+        margin-left: -19%;
+}
+.home .overlay{
+        height: 307px;
+        width: 618px;
+        background-color: red;
+        position: absolute;
+        top: 34%;
+        left: 110px;
+        opacity: 0;
+}
+.home .overlay:hover{
+        cursor: pointer;
+}
+/*====================================
+        Home Section End
+=====================================*/
+/*====================================
+        Banner Section Start
+=====================================*/
+.navbar{
+        background: rgb(249, 249, 249);
+        padding-top: 25px;
+        padding-bottom: 26px;
+}
+.navbar .logo{
+        width: 18%;
+        cursor: pointer;
+        background-color: transparent;
+}
+.navbar .navmenu{
+        width: 80%;
+        text-align: right;
+}
+.navbar .navmenu ul{
+        display: flex;
+        justify-content: flex-end;
+        height: 100%;
+        align-items: center !important;
+}
+.navbar .navmenu ul li a{
+        display: inline-block;
+        color: rgb(80, 78, 78);
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: -1px;
+        margin-left: 25px;
+        background: rgb(249, 249, 249);
+        border-radius: 4px;
+        padding: 10px 15px;
+        transition: 0.4s;
+}
+.navbar .navmenu ul li a:hover{
+        background-color: #00a99d;
+        color: rgb(228, 228, 228);
+}
+.navbar .icon{
+        width: 5%;
+}
+.navbar .icon i{
+        transform: rotateY(-180deg);
+        color: rgb(80, 78, 78);
+        font-weight: lighter;
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-end;
+        height: 100%;
+        align-items: center !important;
+        font-size: 18px;
+        margin-left: 30px;
+        transition: .2s;
+}
+.navbar .icon i:hover{
+        font-size: 25px;
+        color: #00a99d;
+        margin-left: 27px;
+}
+.line{
+        background-color: rgb(222, 222, 222);
+        height: 2px;
+}
+/*====================================
+        Banner Section End
+=====================================*/
+/*====================================
+        Navbar Section Start
+=====================================*/
+.offer{
+        position: relative;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: #f9f9f9;
+}
+.title{
+        text-align: center;
+        position: relative;
+        margin-bottom: 45px;
+}
+.title h1{
+        text-transform: uppercase;
+        color: #383838;
+        font-size: 26px;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        line-height: 20px;
+        margin-bottom: 20px;
+}
+.title span{
+        color: #00a99d;
+}
+.title p{
+        color: #8a8a8a;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        line-height: 16px;
+}
+.title .leftRotate .commonRotate{
+        background-color: #00a99d;
+        transform: rotate(226deg);
+        margin-left: -3px;
+        border-radius: 3px;
+}
+.title .one{
+        opacity: 0.4;
+        height: 9px;
+        width: 9px;
+        margin-top: 2px;
+}
+.title .two{
+        opacity: 0.7;
+        height: 11px;
+        width: 11px;
+        margin-top: 1px;
+}
+.title .three{
+        opacity: 1;
+        height: 13px;
+        width: 13px;
+}
+.title .leftRotate{
+        position: absolute;
+        top: 7%;
+        left: 37%;
+}
+.title .rightRotate .commonRotate{
+        background-color: #00a99d;
+        transform: rotate(226deg);
+        margin-left: -3px;
+        border-radius: 3px;
+}
+.title .six{
+        opacity: 0.4;
+        height: 9px;
+        width: 9px;
+        margin-top: 2px;
+}
+.title .five{
+        opacity: 0.7;
+        height: 11px;
+        width: 11px;
+        margin-top: 1px;
+}
+.title .four{
+        opacity: 1;
+        height: 13px;
+        width: 13px;
+}
+.title .rightRotate{
+        position: absolute;
+        top: 7%;
+        right: 37%;
+}
+.title .leftlines .lineOne{
+        height: 1px;
+        background-color: #dedede;
+        margin-bottom: 4px;
+}
+.title .leftlines .lineTwo{
+        height: 1px;
+        background-color: #dedede;
+}
+.title .leftlines{
+        width: 35%;
+        position: absolute;
+        top: 7px;
+        left: 10px;
+}
+.title .rightlines .lineOne{
+        height: 1px;
+        background-color: #dedede;
+        margin-bottom: 4px;
+}
+.title .rightlines .lineTwo{
+        height: 1px;
+        background-color: #dedede;
+}
+.title .rightlines{
+        width: 35%;
+        position: absolute;
+        top: 7px;
+        right: 15px;
+        transform: rotateY(180deg);
+}
+.title .linearGradients{
+        height: 1px;
+        background-color: rgb(249,249,249) !important;
+        background: linear-gradient(90deg, rgba(249,249,249,1) 0%, rgba(222,222,222,1) 100%); 
+        width: 62%;
+}
+.offer .common{
+        width: 34%;
+        text-align: center;
+        margin-top: 50px !important;
+}
+.offer .common .img{
+        width: 100px;
+        height: 100px;
+        background-color: #383838;
+        border-radius: 50%;
+        position: relative;
+        margin: 0 auto;
+        transition: 0.4s;
+}
+.offer .common .img img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+}
+.offer .common h1{
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        color: #606060;
+        text-transform: uppercase;
+        margin-top: 30px;
+        margin-bottom: 20px;
+}
+.offer .common p{
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        color: #7a7a7a;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 20px;
+}
+.offer .common a{
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        color: #8a8a8a;
+        font-size: 10px;
+        text-transform: uppercase;
+        border: 1px solid #dedede;
+        border-radius: 3px;
+        padding: 8px 10px;
+        transition: 0.4s;
+}
+.offer .common:hover .img{
+        background-color: #00a99d;
+}
+.offer .common:hover a{
+        border: 1px solid transparent;
+        background-color: #00a99d;
+        color: #e3e3e3;
+}
+.offer .common:hover{
+        cursor: pointer;
+}
+.offer .middle{
+        margin: 0 14px;
+}
+.keyimg{
+        position: absolute;
+        background-color: #00a99d;
+        height: 40px;
+        width: 40px;
+        border-radius: 3px;
+        bottom: -20px;
+        left: 49%;
+        transform: rotate(45deg);
+        z-index: 1;
+}
+.keyimg img{
+        position: absolute;
+        top: 28%;
+        left: 26%;
+        /* transform: translate(-50%,-50%) !important; */
+        transform: rotate(-43deg);
+}
+/*====================================
+        Navbar Section End
+=====================================*/
+/*====================================
+        Features Section Start
+=====================================*/
+.features {
+        background-color: #383838;
+        padding-top: 100px;
+        overflow: hidden;
+        position: relative;
+}
+.features .title h1{
+        margin-left: 7px;
+        color: #e4e4e4;
+}
+.features .title .leftRotate{
+        left: 36% !important;
+}
+.features .title .rightRotate{
+        right: 35% !important;
+}
+.features .common{
+        text-align: left;
+        margin-top: 37px !important;
+}
+.features .common h1{
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        color: #e4e4e4;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+}
+.features .common p{
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        color: #7a7a7a;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 20px;
+        width: 76%;
+}
+.features .common i{
+        color: #00a99d;
+        font-size: 40px;
+}
+.features .middle{
+        margin: 0 14px;
+}
+.features .middle .text{
+        margin-left: -8px;
+}
+.features .common .img{
+        align-items: center;
+        display: flex;
+        width: 18%;
+}
+.features .common img{
+        margin-left: -6px;
+}
+.features .leftText i{
+        margin-top: -38px;
+}
+.features .leftText img{
+        margin-top: -38px;
+}
+
+.features .right i{
+        margin-left: 5px;
+}
+.features .leftText{
+        width: 40%;
+        margin-top: 50px;
+        margin-bottom: 30px;
+}
+.features .Rightimg{
+        width: 60%;
+        margin-top: 50px;
+        background: url(../images/tab.png) no-repeat center;
+        background-size: contain;
+        margin-bottom: -48px;
+
+}
+/*====================================
+        Features Section End
+=====================================*/
+/*====================================
+        No Name Section Start
+=====================================*/
+.noName{
+        background-color: #f9f9f9;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        position: relative;
+}
+.noName .common{
+        width: 31%;
+        padding: 30px 15px 25px 20px;
+        transition: 0.4s;
+}
+.noName .common:hover{
+        box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                     15px 15px 15px rgba(0,0,0,0.1),
+                     inset -5px -5px 5px rgba(255,255,255,0.2),
+                     inset 5px 5px 5px rgba(0,0,0,0.1);
+        cursor: pointer;
+}
+.noName .common .img{
+        position: relative;
+        margin-right: 20px;
+}
+.noName .common .img .image{
+        position: absolute;
+        top: 15px;
+        left: 1px;
+        width: 100%;
+        text-align: center;
+}
+.noName .two .img .image{
+        top: 12px;
+}
+.noName .left .common .img .image img{
+        width: 55%;
+}
+.noName .left .two .img .image img{
+        width: 47%;
+}
+.noName .right .common .img .image img{
+        width: 55%;
+}
+.noName .right .six .img .image img{
+        width: 46%;
+}
+.noName .common .text h1{
+        font-size: 14px;
+        color: #606060;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+}
+.noName .common .text .pe{
+        color: #aaaaaa;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        text-transform: capitalize;
+        margin: 8px 0 20px 0;
+}
+.noName .common .text .pee{
+        
+        color: #7a7a7a;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        text-transform: capitalize;
+        line-height: 24px;
+}
+.noName .left .common .img .imgtwo img{
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: 0.4s;
+}
+.noName .right .common .img .imgtwo img{
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: 0.4s;
+}
+.noName .common:hover .img .imgtwo img{
+        opacity: 1;
+}
+.noName .keyimg{
+        left: 48%;
+}
+/*====================================
+        No Name Section End
+=====================================*/
+/*====================================
+        Skill Section Start
+=====================================*/
+.skill{
+        background: #383838;
+        padding: 80px 0 60px 0;
+}
+.skill .title h1{
+        color: #e4e4e4;
+}
+.skill .title .leftRotate {
+        position: absolute;
+        top: 7%;
+        left: 33%;
+}
+.skill .title .rightRotate {
+        position: absolute;
+        top: 7%;
+        right: 33%;
+}
+
+.skill .row{
+        justify-content: space-around;
+}
+.skill .counter {
+       cursor:pointer;
+       width:126px;
+       height:126px;
+       position:relative;
+       border-radius:50%;
+       font-size: 30px;
+       margin: 0 auto;
+     }
+.skill .percentage {
+       position:absolute;
+       text-align:center;
+       top:50%;
+       left:0;
+       right:0;
+       transform:translate3d(0,-50%,0);
+       font-size: 30px;
+       font-weight: 800;
+       color: #e4e4e4;
+       font-family: 'Raleway', sans-serif;
+     }
+.skill .bg-style h4{
+       color: #8a8a8a;
+       font-size: 14px;
+       line-height: 16px;
+       font-weight: 800;
+       font-family: 'Raleway', sans-serif;
+       text-transform: uppercase;
+       text-align: center;
+       margin-top: 20px;
+   }   
+/*====================================
+        Skill Section End
+=====================================*/
+/*====================================
+        Works Section Start
+=====================================*/
+.work{
+        align-items: center;
+        text-align: center;
+        position: relative;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: #f9f9f9;
+}
+.work .common{
+        background: #00a99d;
+        height: 240px;
+        width: 262px;
+        border-radius: 3px;
+        text-align: center;
+        transition: 0.4s;
+}
+.work .first{
+        margin-bottom: 27px;
+        justify-content: space-between;
+}
+.work .second{
+        justify-content: space-between;
+}
+.work .view{
+        padding: 20px 0;
+        background: #383838;
+        position: relative;
+        margin-top: 50px;
+        border-radius: 4px;
+        transition: 0.4s;
+}
+.work .view:hover{
+        background: #00a99d; 
+}
+.work .view h4{
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        color: #e4e4e4;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        cursor: pointer;
+}
+.work .common .text .img img{
+        width: 16px;
+        height: 13px;
+        margin-left: 45%;
+}
+.work .common .text h2{
+        font-size: 16px;
+        font-weight: 800;
+        color: #e4e4e4;
+        font-family: 'Raleway', sans-serif;
+        text-transform: capitalize;
+        margin-bottom: 8px;
+}
+.work .common:hover .text h2{
+        color: #e4e4e4;
+}
+.work .common .text p{
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 500;
+        color: #e4e4e4;
+        font-family: 'Raleway', sans-serif;
+        text-transform: capitalize;
+        margin-top: -5px;
+        margin-left: 2px;
+}
+.work .common:hover .text p{
+        color: #e4e4e4;
+}
+.work .common .text .img{
+        margin-top: 10px;
+}
+.work .common .text .icon .img1{
+        margin-left: 38%;
+        height: 35px;
+        width: 35px;
+        border-radius: 3px;
+        background-color: #e4e4e4;
+        position: relative;
+        margin-right: 12px;
+}
+.work .common .text .icon .img2{
+        height: 35px;
+        width: 35px;
+        border-radius: 3px;
+        background-color: #e4e4e4;
+        position: relative;
+        transition: 0.4s;
+}
+.work .common .text .icon .img1 img{
+        position: absolute;
+        top: 25%;
+        left: 32%;
+        transform: rotate(-135deg);
+}
+.work .common .text .icon .img2 i{
+        position: absolute;
+        top: 26%;
+        left: 32%;
+        transform: rotate(44deg);
+        color: #00a99d;
+}
+.work .common .text .icon{
+        margin: 60px 0 30px -10px;
+}
+.work .common .text{
+        cursor: pointer;
+}
+.work .common:hover{
+        background-color: #383838;
+}
+.work .common:hover .text{
+        opacity: 1;
+}
+/*====================================
+        Works Section End
+=====================================*/
+/*====================================
+        Company Section Start
+=====================================*/
+.company{
+        background-color: #383838;
+        padding-top: 80px;
+}
+.company .title h1{
+        color: #e4e4e4;
+}
+.company .time{
+        justify-content: space-between;
+}
+.company .one h2{
+        color: #606060;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        transition: 0.4s;
+        text-align: center;
+}
+.company .one:hover h2{
+        color: #e4e4e4;
+        opacity: 0.8;
+}
+.company .one .up h1{
+        color: #e4e4e4;
+        font-size: 80px;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        margin: 0 20px;
+        opacity: 0.3;
+        transition: 0.4s;
+}
+.company .one:hover .up h1{
+        opacity: 0.9;
+}
+.company .one .up{
+        margin-bottom: 20px;
+        margin-left: 14%;
+}
+.company .second .up{
+        margin-left: 11%;
+}
+.company .one .up .left{
+        background-color: #484848;
+        height: 11px;
+        width: 11px;
+        border-radius: 2px;
+}
+.company .one .up .right{
+        background-color: #484848;
+        height: 11px;
+        width: 11px;
+        border-radius: 2px;
+}
+.company .one .up .common{
+        margin-top: 25%;
+        transform: rotate(135deg);
+        transition: 0.4s;
+}
+.company .one:hover .up .common{
+        background-color: #00a99d;
+}
+.company .one:hover{
+        cursor: pointer;
+}
+.company .one .down .left{
+        width: 110px;
+        height: 1px;
+        background-color: #484848;
+}
+.company .one .down .right{
+        width: 110px;
+        height: 1px;
+        background-color: #484848;
+}
+.company .one .down .common{
+        margin-top: 10px;
+        transition: 0.4s;
+}
+.company .one:hover .down .common{
+        background-color: #e4e4e4;
+        opacity: 0.8;
+}
+.company .one .down{
+        margin-bottom: 20px;
+}
+.company .one .down img{
+        margin: 0 10px;
+        opacity: 0.2;
+        transition: 0.4s;
+}
+.company .one:hover .down img{
+        opacity: 1;
+}
+.company .second span{
+        font-size: 10px;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+}
+.company .view{
+        padding: 30px 0;
+        background: #00a99d;
+        position: relative;
+        margin-top: 50px;
+}
+.company .view h4{
+        font-size: 16px;
+        color: #e4e4e4;
+        line-height: 20px;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        left: 8%;
+        transform: translate(0,-50%);
+        cursor: pointer;
+}
+.company .view .button a{
+        color: #606060;
+        background-color: #e4e4e4;
+        font-size: 13px;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        padding: 13px 10px;
+        border-radius: 3px;
+        margin-left: 7px;
+        transition: 0.4s;
+}
+.company .view .button a:hover{
+        color: #e4e4e4;
+        background-color: #606060;
+}
+.company .view .button{
+        margin-left: auto;
+}
+/*====================================
+        Company Section End
+=====================================*/
+/*====================================
+        Member Section Start
+=====================================*/
+.member{
+        position: relative;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: #f9f9f9;
+}
+.member .main{
+        justify-content: space-between;
+}
+.member .main .common{
+        width: 23%;
+        border: 1px solid #dedede;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        text-align: center;
+        position: relative;
+}
+.member .main .common .innerdiv{
+        height: 270px;
+        background: rgb(189, 189, 189);
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        position: relative;
+        transition: 0.4s;
+}
+.member .main .common a{
+        color: #e4e4e4;
+        background-color: #00a99d;
+        font-size: 13px;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        padding: 13px 15px;
+        border-radius: 3px;
+        margin-left: 7px;
+        position: absolute;
+        left: 22%;
+        z-index: 1;
+        bottom: 33%;
+        transition: 0.4s;
+}
+.member .main .common .designation{
+        color: #606060;
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        text-transform: capitalize;
+        position: relative;
+        margin-top: 36px;
+        transition: 0.4s;
+}
+.member .main .common .designation::after{
+        content: "";
+        height: 1px;
+        width: 37%;
+        position: absolute;
+        background-color: #ebebeb;
+        left: 32%;
+        bottom: -11px;
+}
+.member .main .common .address p{
+        color: #aaaaaa;
+        font-size: 12px;
+        line-height: 32px;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+}
+.member .main .common .address{
+        margin-bottom: 20px;
+        margin-top: 20px;
+}
+.member .main .common .address .pee i{
+        font-size: 16px;
+        margin-right: 11px;
+}
+.member .main .common .address .pee2 i{
+        font-size: 19px;
+}
+
+.member .common .innerdiv .icon .img{
+        height: 30px;
+        width: 30px;
+        border-radius: 4px;
+        background-color: #f1ecec;
+        transform: rotate(135deg);
+        position: relative;
+        transition: 0.4s;
+        cursor: pointer;
+}
+.member .common .innerdiv .icon .img2{
+        z-index: 1;
+}
+.member .common .innerdiv .icon .img i{
+        position: absolute;
+        top: 25%;
+        left: 32%;
+        transform: rotate(-135deg);
+        color: #00a99d;
+}
+.member .common .innerdiv .icon .img img{
+        position: absolute;
+        top: 25%;
+        left: 32%;
+        transform: rotate(-135deg);
+}
+.member .common .innerdiv .icon .img2 i{
+        top: 22%;
+        left: 27%;
+}
+.member .common .innerdiv .icon .img3 img{
+        top: 21%;
+        left: 16%;
+}
+.member .common .innerdiv .icon .img5 img{
+        top: 23%;
+        left: 22%;
+}
+.member .common .innerdiv .icon{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        transition: 0.4s;
+}
+.member .main .common:hover .innerdiv{
+        background-color: #00a99d;
+}
+.member .main .common:hover .innerdiv .icon{
+        opacity: 1;
+}
+.member .main .common:hover .address .pee{
+        color: #00a99d;
+}
+.member .main .common:hover a{
+        color: #e4e4e4;
+        background-color: #383838;
+}
+.member .main .common:hover .designation{
+        color: #00a99d;
+}
+.member .keyimg{
+        background-color: #383838;
+        left: 48.5%;
+}
+.member .keyimg img{
+        top: 35%;
+        left: 32%;
+}
+/*====================================
+        Member Section End
+=====================================*/
+/*====================================
+        Quote Section Start
+=====================================*/
+.quote{
+        background-color: #00a99d;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 50px;
+}
+.quote a{
+        display: inline-block;
+        font-size: 13px;
+        color: #00a99d;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        padding: 12px 15px;
+        background-color: #e4e4e4;
+        border-radius: 4px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+}
+.quote .span{
+        color: #aaaaaa;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        text-transform: capitalize;
+}
+.quote p{
+        font-size: 20px;
+        line-height: 34px;
+        color: #e4e4e4;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        text-transform: capitalize;
+}
+.quote span{
+        font-size: 80px;
+        color: #e4e4e4;
+        font-family: 'Raleway', sans-serif;
+        text-transform: capitalize;
+}
+.quote .main .spnaQuote{
+        transform: rotateY(180deg);
+}
+.quote .main{
+        position: relative;
+}
+.quote .main .spnaQuote1{
+        position: absolute;
+        top: -8px;
+        left: -4px;
+}
+.quote .main .spnaQuote2{
+        position: absolute;
+        top: 24px;
+        right: 10%;
+}
+/*====================================
+        Quote Section End
+=====================================*/
+/*====================================
+        Logo Section Start
+=====================================*/
+.logo{
+        background-color: #383838;
+}
+.logo .main{
+        padding: 45px 0;
+        justify-content: space-between;
+}
+.logo .main .common img{
+        padding: 40px 55px;
+}
+.logo .main .common{
+        background: rgb(54,54,54);
+        transition: 0.4s;
+}
+.logo .main .common:hover{
+        background: rgb(51,51,51);
+        cursor: pointer;
+}
+.logo .main .three{
+        position: relative;
+}
+.logo .main .two img{
+        opacity: 0.3;
+        transition: 0.4s;
+}
+.logo .main .two{
+        transition: 0.4s;
+}
+.logo .main .two:hover img{
+        opacity: 1;
+}
+.logo .main .three img{
+        margin-top: 15px;
+}
+/*====================================
+        Logo Section End
+=====================================*/
+/*====================================
+        Price Section Start
+=====================================*/
+.price{
+        padding-top: 100px;
+        padding-bottom: 80px;
+        background-color: #f9f9f9;
+}
+.price .main{
+        justify-content: space-between;
+}
+.price .common{
+        width: 23%;
+        border: 1px solid #dedede;
+        border-radius: 3px;
+        text-align: center;
+        position: relative;
+        transition: 0.4s;
+}
+.price .common:hover a{
+        background-color: #00a99d;
+}
+.price .common:hover{
+        cursor: pointer;
+}
+.price .common:hover ul li{
+        color: #00a99d ;
+}
+.price .common a{
+        display: inline-block;
+        background-color: #383838;
+        padding: 12px 15px;
+        border-radius: 4px;
+        font-size: 13px;
+        color: #e4e4e4;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        transition: 0.4s;
+}
+.price .common .up{
+        position: absolute;
+        top: -40px;
+        left: 25%;
+}
+.price .common ul li{
+        color: #8a8a8a;
+        border-radius: 4px;
+        font-size: 14px;
+        line-height: 40px;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        text-transform: capitalize;
+        transition: 0.4s;
+}
+.price .common .list{
+        margin-bottom: 20px;
+        margin-top: 30px;
+}
+.price .common .list::after{
+        content: "";
+        height: 1px;
+        width: 85%;
+        background-color: #ebebeb;
+        position: absolute;
+        bottom: 20%;
+        left: 8%;
+}
+.price .common .list::before{
+        content: "";
+        height: 1px;
+        width: 85%;
+        background-color: #ebebeb;
+        position: absolute;
+        top: 27%;
+        left: 8%;
+}
+.price .common .dollar{
+        margin-left: 19%;
+        margin-top: 30px;
+}
+.price .common:hover .dollar .pee{
+        color: #00a99d;
+}
+.price .common:hover .dollar h1{
+        color: #00a99d;
+}
+.price .common:hover .dollar p{
+        color: #00a99d;
+}
+.price .common:hover .dollar .powerDollar h4{
+        color: #00a99d;
+}
+.price .common:hover .dollar .powerDollar .dot{
+        background: #00a99d;
+}
+.price .common .dollar .pee{
+        font-size: 16px;
+        color: #8a8a8a;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 40px;
+        margin-right: 8px;
+        transition: 0.4s;
+}
+.price .common .dollar p{
+        color: #8a8a8a;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 45px;
+        margin-left: 5px;
+        transition: 0.4s;
+}
+.price .common .dollar h1{
+        color: #383838;
+        font-size: 60px;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        transition: 0.4s;
+}
+.price .common .dollar .powerDollar{
+        margin-left: 10px;
+}
+.price .common .dollar .powerDollar h4{
+        font-size: 16px;
+        color: #383838;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 10px;
+        transition: 0.4s;
+}
+.price .common .dollar .powerDollar .dot{
+        height: 10px;
+        width: 10px;
+        background-color: #383838;
+        border-radius: 2px;
+        margin-top: 18px;
+        margin-left: 1px;
+        transform: rotate(135deg);
+        transition: 0.4s;
+}
+.price .title{
+        margin-bottom: 70px;
+}
+.price .title .leftlines{
+        width: 33%;
+}
+.price .title .rightlines{
+        width: 33%;
+}
+.price .title .leftRotate{
+        left: 35%;
+}
+.price .title .rightRotate{
+        right: 35%;
+}
+/*====================================
+        Price Section End
+=====================================*/
+/*====================================
+        Hope Section Start
+=====================================*/
+.hope{
+        background: rgb(138,138,138);
+        padding: 60px 0;
+}
+.hope a{
+        color: #e4e4e4;
+        background: #00a99d;
+        border-radius: 4px;
+        display: inline-block;
+        padding: 12px 15px;
+        font-size: 13px;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        transition: 0.4s;
+}
+.hope a:hover{
+        background-color: #383838;
+}
+.hope a i{
+        margin-left: 9px;
+        font-size: 18px;
+}
+.hope .main .right{
+        text-align: right;
+        width: 50%;
+}
+.hope .main h1{
+        color: #383838;
+        font-size: 25px;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        text-transform: capitalize;
+        width: 50%;
+}
+.hope .main h1 i{
+        font-size: 20px;
+        color: #00a99d;
+        margin-right: 5px;
+}
+/*====================================
+        Hope Section End
+=====================================*/
+/*====================================
+        Social-Site Section Start
+=====================================*/
+.site{
+        text-align: center;
+        background: #383838;
+        padding: 60px 0 30px 0;
+}
+.site .main{
+        text-align: center;
+        width: 51%;
+        margin: 0 auto;
+        margin-top: 70px !important;
+        margin-bottom: 70px !important;
+}
+.site .main .common i{
+        font-size: 16px;
+        color: #e4e4e4;
+        padding: 12px 13px;
+        border: 1px solid #8a8a8a;
+        border-radius: 4px;
+        margin-left: 10px;
+        transition: 0.4s;
+}
+.site .main .one i{
+        padding: 12px 16px;
+}
+.site .main .seven i{
+        padding: 12px 15px;
+}
+.site .main .nine i{
+        padding: 12px 11px;
+}
+.site .main .eleven i{
+        padding: 12px 14px;
+}
+.site .main .common i:hover{
+        background: #00a99d;
+        cursor: pointer;
+        border: 1px solid #00a99d;
+}
+/* send messege part start*/
+.iframeSendsms{
+        position: relative;
+}
+.sendsms{
+        background: #f9f9f9;
+        width: 370px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        position: absolute;
+        top: 20%;
+        left: 5%;
+}
+.sendsms .name input{
+        padding: 13px 16px;
+        width: 81%;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid #aaaaaa;
+}
+.sendsms .email{
+        margin: 20px 0;
+}
+.sendsms .email input{
+        padding: 13px 16px;
+        width: 81%;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid #aaaaaa;
+}
+.sendsms .textarea{
+        margin-bottom: 20px;
+}
+.sendsms .textarea textarea{
+        width: 81%;
+        height: 100px;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid #aaaaaa;
+        padding: 13px 16px;
+}
+.sendsms .btn a{
+        color: #e4e4e4;
+        background: #00a99d;
+        border-radius: 5px;
+        display: inline-block;
+        padding: 12px 110px;
+        font-size: 13px;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        transition: 0.4s;
+}
+.sendsms a:hover{
+        background-color: #383838;
+        cursor: pointer;
+}
+/* send messege part end*/
+
+/* copyright part start */
+.site .copyright{
+        margin-top: 25px;
+}
+.site .copyright h4{
+        color: #e4e4e4;
+        font-size: 14px;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        text-transform: capitalize;
+}
+/* copyright part end */
+
+/*====================================
+        Social-Site Section End
+=====================================*/
+/*====================================
+        Navbar Section Start
+=====================================*/
+/*====================================
+        Navbar Section End
+=====================================*/

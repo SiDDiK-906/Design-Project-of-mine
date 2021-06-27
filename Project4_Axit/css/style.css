@@ -1,0 +1,751 @@
+/*============================================================================ 
+                                Common css Start
+=============================================================================*/
+*{
+    margin:0; padding:0;
+    color: #ffffff;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.button1 a{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    border: 2px solid #ffffff;
+    padding: 8px 25px;
+    transition: 0.4s;
+    text-transform: capitalize;
+    color: #ffffff !important;
+}
+.button1 a:hover{
+    background: #ff9b51;
+    border-color: #ff9b51;
+}
+.button2 a{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border: 2px solid #ff9b51;
+    padding: 10px 20px;
+    transition: 0.4s;
+    background: #ff9b51;
+    border-radius: 4px;
+    text-transform: capitalize;
+    color: #ffffff !important;
+}
+.button2 a:hover{
+    background: #333333;
+    border-color: #333333;
+}
+.flex{
+    display: flex;
+}
+.title{
+    margin-bottom: 55px;
+    position: relative;
+}
+.title h1{
+    color: #212121;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.title::after{
+    content: "";
+    height: 2px;
+    width: 15%;
+    background: #ff9b51;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+}
+.title2{
+    margin-bottom: 55px;
+    position: relative;
+    text-align: center;
+}
+.title2 h1{
+    color: #212121;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.title2::after{
+    content: "";
+    height: 2px;
+    width: 5%;
+    background: #ff8b38;
+    position: absolute;
+    bottom: -25px;
+    left: 47%;
+}
+p{
+    color: #86878b;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.container{
+    padding: 0 !important;
+}
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+/*============================================================================ 
+                                Common css End
+=============================================================================*/
+/*============================================================================ 
+                                Navbar Section Start
+=============================================================================*/
+nav{
+    background: #000000;
+    padding: 20px 0 20px 0;
+}
+nav .navmenu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+nav .navmenu ul{
+    margin-left: auto;
+}
+nav .navmenu ul li{
+    display: inline-block;
+}
+nav .navmenu ul li a{
+    margin-left: 47px;
+    color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.4s;
+}
+nav .navmenu ul li a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #ff8b38;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    transition: 0.4s;
+}
+nav .navmenu ul li a:hover{
+    color: #ff8b38;
+}
+nav .navmenu ul li a:hover::after{
+    width: 100%;
+}
+nav .navmenu ul li a::before{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #ff8b38;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    transition: 0.4s;
+}
+nav .navmenu ul li a:hover{
+    color: #ff8b38;
+}
+nav .navmenu ul li a:hover::before{
+    width: 100%;
+}
+/*============================================================================ 
+                                Navbar Section End
+=============================================================================*/
+/*============================================================================ 
+                            Banner Section Start
+=============================================================================*/
+.banner{
+    background: url(../images/Banner.png) no-repeat center;
+    height: 100vh;
+}
+.banner .left{
+    width: 48%;
+    margin-top: 10%;
+}
+.banner .left h1{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    position: relative;
+}
+.banner .left h1::after{
+    content: "";
+    height: 2px;
+    width: 12%;
+    position: absolute;
+    bottom: -38px;
+    left: 0;
+    background-color: #ffffff;
+}
+.banner .left p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    line-height: 24px;
+    margin: 70px 0 40px 0;
+    color: #d6d6d6;
+}
+.banner .right{
+    width: 52%;
+    margin-top: 13%;
+}
+.banner .right .width{
+    width: 61%;
+    text-align: center;
+    margin-left: auto;
+}
+.banner .right .titleTag h1{
+    color: #333333;
+    background: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 0;
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+}
+.banner .right .titleTag span{
+    color: #ff9b51;
+}
+.banner .right .forms{
+    background: #ffffff;
+    width: 100%;
+    padding: 15px 0;
+}
+.banner .right input{
+    display: block;
+    width: 85%;
+    border: 0;
+    margin: 45px auto;
+    margin-left: 50px;
+    color: #333333;
+}
+.banner .right .forms .common{
+    position: relative;
+}
+.banner .right .forms .common::after{
+    content: "";
+    width: 80%;
+    height: 1px;
+    background: #d6d6d6;
+    position: absolute;
+    bottom: -9px;
+    left: 10%;
+}
+
+.banner .right input::placeholder{
+    color: #86878b;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.banner .right a{
+    display: inline-block;
+    background: #ff9b51;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 18px 0;
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+    color: #ffffff;
+}
+/*============================================================================ 
+                            Banner Section End
+=============================================================================*/
+/*============================================================================ 
+                        Social Media Section Start
+=============================================================================*/
+.socialMedia{
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.38);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.38);
+    padding: 20px 0;
+}
+.socialMedia .text{
+    width: 32%;
+}
+.socialMedia .text h2{
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.socialMedia .icon{
+    display: flex;
+    align-items: center;
+    width: 68%;
+    justify-content: flex-end;
+}
+.socialMedia .icon i{
+    color: #cccccc;
+    font-size: 50px;
+    margin-left: 60px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.socialMedia .icon i:hover{
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #f77316 0px 0px 20px, #f77316 0px 0px 30px, #f77316 0px 0px 40px, #f77316 0px 0px 50px, #f77316 0px 0px 75px;
+}
+/*============================================================================ 
+                        Social Media Section End
+=============================================================================*/
+/*============================================================================ 
+                                Tab Section Start
+=============================================================================*/
+.tab{
+    padding: 100px 0;
+    background: #f5f5f5;
+}
+.tab #v-pills-tab{
+    text-align: center;
+}
+.tab .col-3{
+    padding: 0 !important;
+    flex: none !important;
+    width: 10% !important;
+}
+.tab .col-3 a{
+    padding: 48px 0px;
+    border-radius: 3px;
+    background: #212121;
+    color: #ffffff;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.tab #v-pills-tab .active{
+    background: #ff8b38;
+}
+.tab .col-9{
+    padding: 0 !important;
+    flex: none !important;
+    max-width: 90% !important;
+    width: 89%;
+}
+.tab .col-9 .main{
+    margin-top: 15px;
+}
+.tab .col-9 .left{
+    width: 47%;
+    margin-left: 11%;
+}
+.tab .col-9 .left h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ff8b38;
+    text-transform: uppercase;
+}
+.tab .col-9 .left .pee{
+    margin: 50px 0 20px 0;
+}
+.tab .col-9 .left .pee2{
+    margin-bottom: 50px;
+}
+.tab .col-9 .right{
+    width: 42%;
+    text-align: right;
+}
+/*============================================================================ 
+                                Tab Section End
+=============================================================================*/
+/*============================================================================ 
+                            List Section Start
+=============================================================================*/
+.list{
+    margin: 100px 0;
+}
+.list .left{
+    width: 46%;
+    margin-top: 3%;
+}
+.list .left img{
+    width: 100%;
+}
+.list .right{
+    width: 39%;
+    margin-left: 15%;
+}
+.list .right .main .common .text h4{
+    color: #212121;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.list .right .main .common .icon{
+    margin-right: 30px;
+}
+.list .right .main .common .icon i{
+    color: #ff9b51;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #ff9b51;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+}
+.list .right .main .one{
+    margin: 20px 0;
+}
+.list .right .pee3{
+    width: 98%;    
+}
+/*============================================================================ 
+                            List Section End
+=============================================================================*/
+/*============================================================================ 
+                                Picture Section Start
+=============================================================================*/
+.picture{
+    background: #f5f5f5;
+    padding: 90px 0 70px 0;
+}
+.picture .left{
+    width: 42%;
+    margin-top: 3%;
+}
+.picture .left .pee1{
+    margin-bottom: 15px;
+    width: 99%;
+}
+.picture .right{
+    width: 45%;
+    margin-left: 13%;
+}
+.picture .right img{
+    width: 100%;
+}
+/*============================================================================ 
+                                Picture Section End
+=============================================================================*/
+/*============================================================================ 
+                            Awesome Section Start
+=============================================================================*/
+.awesome{
+    margin: 100px 0;
+    text-align: center;
+}
+.awesome .main{
+    justify-content: space-between;
+}
+.awesome .common{
+    width: 31%;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.awesome .common .icon i{
+    color: #86878b;
+    height: 70px;
+    width: 70px;
+    border: 2px solid #86878b;
+    border-radius: 50%;
+    line-height: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.awesome .common:hover .icon i{
+    color: #ff8b38;
+    border-color: #333333;
+}
+.awesome .common:hover h2{
+    color: #333333;
+}
+.awesome .common:hover p{
+    color: #333333;
+}
+.awesome .common p{
+    transition: 0.4s;
+}
+.awesome .common h2{
+    color: #86878b;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 25px 0;
+    transition: 0.4s;
+}
+/*============================================================================ 
+                            Awesome Section End
+=============================================================================*/
+/*============================================================================ 
+                                Price Section Start
+=============================================================================*/
+.price{
+    padding: 100px 0;
+    background: #f5f5f5;
+    text-align: center;
+}
+.price p{
+    text-align: center;
+}
+.price .main{
+    justify-content: space-around;
+}
+.price .common{
+    width: 30%;
+    margin-top: 80px;
+}
+.price .common h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    background: #212121;
+    padding: 15px 0;
+    margin-bottom: 1px;
+    transition: 0.4s;
+}
+.price .common .amount{
+    background: #212121;
+    padding: 20px 0;
+    transition: 0.4s;
+}
+.price .common .amount .dollar{
+    margin-left: 33%;
+}
+.price .one .amount .dollar{
+    margin-left: 38%;
+}
+.price .common .amount .heich1{
+    font-size: 90px;
+    margin-top: -25px;
+}
+.price .common .amount h1{
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    margin-top: 25px;
+}
+.price .common .amount p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.price .common .hover{
+    background: #ff8b38;
+    padding: 3px 0;
+    transition: 0.4s;
+}
+.price .common .hover h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: capitalize;
+    transition: 0.4s;
+    height: 0;
+}
+.price .common:hover .hover{
+    padding: 12px 0 33px 0;
+}
+.price .common:hover .hover h3{
+    margin-top: 2px;
+}
+.price .common:hover h2{
+    margin-top: -41px;
+}
+.price .common .packages{
+    background: #ffffff;
+}
+.price .common .packages ul li{
+    color: #86878b;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 13px 0;
+    border-top: 1px solid #f5f5f5;
+}
+/*============================================================================ 
+                                Price Section End
+=============================================================================*/
+/*============================================================================ 
+                                Customer Section Start
+=============================================================================*/
+.customer{
+    margin: 100px 0;
+}
+.customer .pee{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.customer .main{
+    justify-content: space-between;
+}
+.customer .common{
+    width: 25%;
+}
+.customer .common .pee2{
+    background: #f9f9f9;
+    padding: 20px 0px 25px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: 0.6s;
+}
+.customer .common:hover .pee2{
+    background: #ff8b38;
+    color: #ffffff;
+}
+.customer .common .down .text{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.customer .common .down .text h2{
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+/*============================================================================ 
+                                Customer Section End
+=============================================================================*/
+/*============================================================================ 
+                                Design Section Start
+=============================================================================*/
+.design{
+    background: url(../images/design.png) no-repeat center;
+    padding: 100px 0;
+    text-align: center;
+}
+.design .title2 h1{
+    color: #ffffff;
+    font-weight: 400;
+}
+.design .title2::after{
+    background: #ffffff;
+}
+.design p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    line-height: 24px;
+    margin-bottom: 25px;
+    color: #d6d6d6;
+}
+/*============================================================================ 
+                                Design Section End
+=============================================================================*/
+/*============================================================================ 
+                                Contact Us Section Start
+=============================================================================*/
+.contactUs{
+    text-align: center;
+    margin: 60px 0;
+}
+.contactUs .forms{
+    margin: 70px 0 10px 0;
+}
+.contactUs .forms .one{
+    width: 47%;
+}
+.contactUs .forms .two{
+    width: 49%;
+    position: relative;
+}
+.contactUs .forms .one input{
+    display: block;
+    border: none;
+    margin-left: 10px;
+    color: #333333;
+    font-size: 14px;
+    width: 95%;
+}
+.contactUs .forms .one .items{
+    position: relative;
+    margin-bottom: 50px;
+}
+.contactUs .forms .one .items::after{
+    content: "";
+    background: #d6d6d6;
+    height: 1px;
+    width: 98%;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+.contactUs .forms .two textarea{
+    border: none;
+    color: #333333;
+    font-size: 14px;
+    width: 95%;
+    margin-left: 85px;
+    height: 160px;
+}
+.contactUs .forms .two::after{
+    content: "";
+    background: #d6d6d6;
+    height: 1px;
+    width: 97%;
+    position: absolute;
+    bottom: 38px;
+    left: 75px;
+}
+.contactUs .forms .common ::placeholder{
+    color: #86878b;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+/*============================================================================ 
+                                Contact Us  End
+=============================================================================*/
+/*============================================================================ 
+                                Footer  Start
+=============================================================================*/
+.footer{
+    background: #000000;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+.footer p{
+    margin-top: 5px;
+    font-size: 12px;
+    margin-bottom: 0 !important;
+}
+.footer .icon{
+    margin-left: 20px;
+}
+.footer .icon i{
+    color: #bdbdbd;
+    font-size: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.footer .icon i:hover{
+    text-shadow: #f77316 0px 0px 5px, #f77316 0px 0px 10px, #f77316 0px 0px 15px, #ffffff 0px 0px 20px, #ffffff 0px 0px 30px, #ffffff 0px 0px 40px, #ffffff 0px 0px 50px, #ffffff 0px 0px 75px;
+
+}
+/*============================================================================ 
+                                Footer  End
+=============================================================================*/

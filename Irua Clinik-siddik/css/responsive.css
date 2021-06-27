@@ -1,0 +1,225 @@
+/* Extra-Small Device*/
+@media (max-width:575px){
+	.desktop_view{
+		display: none;
+	}
+	.mobile_view{
+		display: block;
+		background: #EAFCF8;
+	}
+	/* Nav part */
+	.main .nav{
+		background: #63BA86;
+		padding: 10px 20px 10px 20px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 99;
+		transition: 0.4s;
+	}
+	.main .nav p{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 600;
+		font-size: 20px;
+		color: #FFFFFF;
+	}
+
+	  
+	  .sub_main {
+		position: relative;
+		margin-left: auto !important;
+		margin: 10px 10px 0 0;
+	  }
+	  
+	  
+	  .mobile-header-nav {
+		list-style: none;
+		display: none;
+		margin: 0;
+		padding: 0;
+		position: fixed;
+		top: 0px;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		background-color: #F8F8F8;
+		padding-top: 100px;
+		z-index: 1;
+	  }
+	  .mobile-header-nav li {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	  }
+	  .mobile-header-nav li a {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
+		font-size: 16px;
+		color: #2f2f2f;
+		display: block;
+		padding: 15px 0;
+		text-align: center;
+		text-decoration: none;
+		-webkit-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+	  }
+	  .mobile-header-nav li a:hover {
+		color: #63BA86;
+	  }
+	  
+	  .hamburger-menu {
+		display: inline-block;
+		-webkit-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		position: fixed;
+		z-index: 9999;
+		top: 15px;
+	right: 20px;
+	  }
+	  .hamburger-menu:hover {
+		cursor: pointer;
+	  }
+	  .hamburger-menu .menu-item {
+		background: #2f2f2f;
+		display: block;
+		height: 3px;
+		margin: 0 0 5px;
+		-webkit-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		width: 30px;
+	  }
+	  .hamburger-menu.open .menu-item {
+		margin: 0 0 5px;
+	  }
+	  .hamburger-menu.open .menu-item:first-child {
+		-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+		-webkit-transform-origin: 3px;
+				transform-origin: 3px;
+	  }
+	  .hamburger-menu.open .menu-item:nth-child(2) {
+		opacity: 0;
+	  }
+	  .hamburger-menu.open .menu-item:nth-child(3) {
+		-webkit-transform: rotate(-45deg);
+				transform: rotate(-45deg);
+		-webkit-transform-origin: 4px;
+				transform-origin: 4px;
+	  }
+	  
+
+
+	/* Body Part */
+	.main .body .sub_body{
+		padding-top: 100px;
+		padding-bottom: 25px;
+	}
+	.main .body .item {
+		background: #FFFFFF;
+		border: 2px solid #63BA86;
+		border-radius: 14px;
+		padding: 10px 50px 20px 15px;
+		margin-bottom: 60px !important;
+		margin: 20px 30px 0 30px;
+	}
+	.main .body .item p{
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		color: #3D8D5D;
+	}
+	.main .body .item img{
+		width: 13%;
+	}
+	.main .body .item h4{	
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 20px;
+		color: #3D8D5D;
+		margin-left: auto;
+	}
+	/* patient */
+	.main .body .patient {
+		border: none;
+	}
+	/* count */
+	.main .body  .count {
+		padding: 10px 15px 10px 15px;
+		border: 1px solid #63BA86;
+		box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+		border-radius: 14px;
+	}
+	.main .body  .count ul li{
+		margin-bottom: 10px;
+	}
+	.main .body .count .number{
+		margin-left: 30px;
+	}
+	/* payment */
+	.main .body  .payment {
+		padding: 20px 0px 50px 10px;
+		border: 1px solid #63BA86;
+		box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+		border-radius: 14px;
+		margin: 20px 20px 0px 20px;
+	}
+	.main .body .payment ul li{
+		margin-bottom: 30px;
+	}
+	.main .body .payment .number{
+		margin-left: 18px;
+	}
+	/* gender */
+	.main .body .gender {
+		border: none;
+		border-radius: 21px;
+		padding: 20px 30px 60px 30px;
+		margin: 20px 20px 0 20px;
+	}
+	.main .body .gender img {
+		width: 100%;
+	}
+	.main .body .gender p{
+		font-weight: 600;
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+	.main .body .gender .img{
+		position: relative;
+	}
+	.main .body .gender .img2{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.main .body .gender .img2 img{
+		width: 85%;
+	}
+	/* Diagnosis */
+	.main .body .diagnosis {
+		border: none;
+		border-radius: 21px;
+		padding: 20px 30px 60px 30px;
+		margin: 20px 20px 0 20px;
+	}
+	.main .body .diagnosis img {
+		width: 100%;
+	}
+	.main .body .diagnosis p{
+		font-weight: 600;
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+	.main .body .diagnosis .img{
+		position: relative;
+	}
+	.main .body .diagnosis .img2{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.main .body .diagnosis .img2 img{
+		width: 85%;
+	}
+}

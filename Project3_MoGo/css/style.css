@@ -1,0 +1,1214 @@
+/*====================================
+            Common CSS Start
+=====================================*/
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+/*====================================
+            Common Section End
+=====================================*/
+/*====================================
+        Nav Bar Section Start
+=====================================*/
+nav{
+    position: absolute;
+    width: 100%;
+    margin-top: 25px;
+}
+nav .main .logo{
+    width: 9%;
+}
+nav .main .logo h1{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+nav .main .navmenu{
+    width: 84%;
+    text-align: right;
+}
+nav .main .navmenu ul li{
+    display: inline-block;
+}
+nav .main .navmenu ul li a{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-right: 50px;
+    position: relative;
+    transition: 0.4s;
+}
+nav .main .navmenu ul li a::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    background-color: #fce38a;
+    opacity: 0;
+    transition: 0.6s;
+}
+nav .main .navmenu ul li a:hover{
+    color: #fce38a;
+}
+nav .main .navmenu ul li a:hover::after{
+    opacity: 1;
+    width: 100%;
+}
+nav .main .icon{
+    width: 2%;
+    text-align: right;
+}
+nav .main .icon i{
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.4s;
+}
+nav .main .icon .fa-shopping-cart:hover{
+    font-size: 22px;
+}
+nav .main .icon .fa-search:hover{
+    font-size: 22px;
+    margin-left: 3px;
+}
+nav .main .icon1{
+    margin-right: 35px;
+ }
+/*====================================
+        Nav Bar Section End
+=====================================*/
+/*====================================
+        Banner Section Start
+=====================================*/
+.banner{
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.banner .overlay{
+    background: linear-gradient(to top,rgba(252, 227, 136,0.9),rgba(243, 129, 129,0.9));
+    height: 100vh;
+    padding-bottom: 180px;
+    padding-top: 210px;
+}
+.banner .main{
+    text-align: center;
+    opacity: 1;
+}
+.banner .main .text h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px !important;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.banner .main .text h1{
+    font-size: 150px;
+    line-height: 140px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    width: 74%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    margin-top: 25px;
+}
+.banner .main .text{
+    position: relative;
+}
+.banner .main .text::after{
+    content: "";
+    width: 6%;
+    height: 3px;
+    position: absolute;
+    bottom: -60px;
+    left: 47%;
+    background-color: #ffffff;
+}
+.banner .main a{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 180px;
+    padding: 8px 30px;
+    border: 3px solid #ffffff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.banner .main a:hover{
+    border: 3px solid #f38181;
+    color: #ffffff;
+    background-color: #f38181;
+}
+.banner .main .bottomNav .common h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.7;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.banner .main .bottomNav .common span{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-left: 7px;
+    opacity: 1;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.banner .main .bottomNav .common{
+    width: 25%;
+    position: relative;
+    text-align: left;
+    margin-right: 30px;
+}
+.banner .main .bottomNav .four{
+    margin-right: 0 !important;
+}
+.banner .main .bottomNav .common::after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    opacity: 0.5;
+    border-radius: 5px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    transition: 0.4s;
+}
+.banner .main .bottomNav .common::before{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: #f38181;
+    border-radius: 5px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: 1;
+    opacity: 1;
+    transition: 0.4s;
+}
+.banner .main .bottomNav .common:hover::before{
+    width: 30%;
+    opacity: 1;
+}
+.banner .main .bottomNav .common:hover::after{
+    opacity: 1;
+}
+.banner .main .bottomNav .common:hover h2{
+    opacity: 1;
+}
+.banner .main .bottomNav .common:hover span{
+    opacity: 1;
+}
+/*====================================
+        Banner Section End
+=====================================*/
+/*====================================
+        About Us Section Start
+=====================================*/
+.aboutUS{
+    margin-bottom: 100px;
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    font-size: 24px;
+    color: #333333;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+}
+.title h1{
+    font-size: 30px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 15px 0 65px 0;
+    position: relative;
+}
+.title h1::after{
+    content: "";
+    height: 3px;
+    width: 5%;
+    position: absolute;
+    bottom: -33px;
+    left: 47%;
+    background-color: #f38181;
+}
+.title p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 65px !important;
+    width: 85%;
+    margin: 0 auto;
+}
+.aboutUS .main{
+    position: relative;
+}
+.aboutUS .main .common{
+    background: #95e1d3;
+    position: relative;
+    width: 31%;
+}
+.aboutUS .main .common .overlay{
+    background: linear-gradient(to top,rgba(252, 227, 136,0.9),rgba(243, 129, 129,0.9));
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 101%;
+    width: 100.5%;
+    opacity: 0;
+    transition: 0.4s;
+}
+.aboutUS .main .common .overlay .text{
+    margin-top: 25%;
+}
+.aboutUS .main .common .overlay .text i{
+    font-size: 30px;
+}
+.aboutUS .main .common .overlay .text h2{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.aboutUS .main .common img{
+    width: 101%;
+    height: 102%;
+    display: block;
+    margin-left: -2px;
+    margin-top: -2px;
+    transition: 0.4s;
+}
+.aboutUS .main .two{
+    margin: 0 30px;
+}
+.aboutUS .main .common:hover .overlay{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.aboutUS .main .common:hover img{
+    margin-left: -12px;
+    margin-top: -11px;
+    width: 101%;
+    height: 101%;
+}
+.aboutUS .main .common:hover .overlay{
+    margin-left: -11px;
+    margin-top: -11px;
+}
+/*====================================
+        About Us Section End
+=====================================*/
+/*====================================
+            Time Section Start
+=====================================*/
+.time{
+    margin-bottom: 100px;
+    background: #95e1d3;
+    text-align: center;
+    
+}
+.time .main .common{
+    width: 20%;
+    border-left: 1px solid #ffffff;
+    padding: 80px 0;
+}
+.time .main .five{
+    border-right: 1px solid #ffffff;
+}
+.time .main .common h1{
+    font-size: 72px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.time .main .common p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+/*====================================
+            Time Section End
+=====================================*/
+/*====================================
+            Services Section Start
+=====================================*/
+.services{
+    margin-bottom: 100px;
+}
+.services .main .common{
+    width: 34%;
+    transition: 0.4s;
+    padding: 30px 0px 28px 20px;
+}
+.services .main .common:hover{
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                -5px -5px 5px rgba(255,255,255,0.2),
+                5px 5px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.services .main1{
+    margin-bottom: 68px;
+    margin-top: 90px;
+    position: relative;
+}
+.services .main .common .img img{
+    margin-right: 20px;
+    margin-top: 3px;
+}
+.services .main .common .text h2{
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.services .main .common .text p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+.services .main1::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: -34px;
+    left: 0%;
+    background-color: #e5e5e5;
+}
+/*====================================
+            Services Section End
+=====================================*/
+/*====================================
+            Design Section Start
+=====================================*/
+.design{
+    background: url('../images/design.png') no-repeat center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.design .overlay{
+    background-color: rgba(255, 255, 255,0.85);
+    height: 100%;
+    padding: 100px 0 600px 0;
+}
+.design .overlay .main{
+    position: relative;
+}
+.design .overlay .main .img1 img{
+    position: absolute;
+    top: 17px;
+    left: 29%;
+}
+.design .overlay .main .img2 img{
+    position: absolute;
+    top: 210px;
+    right: 24%;
+}
+/*====================================
+            Design Section End
+=====================================*/
+/*====================================
+        What we do Section Start
+=====================================*/
+.weDo{
+    margin-bottom: 100px;
+}
+.weDo .main .leftimg{
+    width: 50%;
+    margin-right: 20px;
+}
+.weDo .main .leftimg img{
+    width: 100%;
+}
+.weDo .main .text{
+    width: 50%;
+}
+.weDo .main .text .common h2{
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+}
+.weDo .main .text .common i{
+    color: #cccccc;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 62%;
+    cursor: pointer;
+}
+.weDo .main .text .two i{
+    margin-left: 68%;
+}
+.weDo .main .text .three i{
+    margin-left: 65%;
+}
+.weDo .main .text .common{
+    padding: 9px 0 8px 15px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+}
+.weDo .main .text .common .img img{
+    width: 100%;
+}
+.weDo .main .jquery{
+    border: 1px solid #cccccc;
+    padding: 10px 0 10px 10px;
+    border-top: none !important;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.weDo .main .jquery p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 300;
+    font-style: italic;
+    overflow-y: scroll;
+}
+/*====================================
+        What we do Section End
+=====================================*/
+/*====================================
+            Speech Section Start
+=====================================*/
+.speech{
+    margin-bottom: 100px;
+    background: #f8f8f8;
+    padding: 60px 0;
+}
+.speech .main .img{
+    width: 15%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 57px;
+    margin-left: 12%;
+}
+.speech .main .img img{
+    border: 3px solid rgb(149, 225, 221);
+    padding: 40px;
+}
+.speech .main .text{
+    width: 75%;
+    text-align: left;
+}
+.speech .main .text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #999999;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: capitalize;
+    width: 97%;
+}
+.speech .main .text h2{
+    font-size: 24px;
+    color: #333333;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+    margin-left: 9%;
+}
+.speech .main .text h2::after{
+    content: "";
+    height: 3px;
+    width: 8%;
+    position: absolute;
+    bottom: 15px;
+    left: -10%;
+    background-color: #f38181;
+}
+/*====================================
+            Speech Section End
+=====================================*/
+/*====================================
+            Team Section Start
+=====================================*/
+.team{
+    margin-bottom: 100px;
+    text-align: center;
+}
+.team .main{
+    position: relative;
+    margin-top: 90px;
+}
+.team .main .common{
+    background: #95e1d3;
+    position: relative;
+    width: 31%;
+}
+.team .main .common .overlay{
+    background: linear-gradient(to top,rgba(252, 227, 136,0.9),rgba(243, 129, 129,0.9));
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 101%;
+    width: 100.5%;
+    opacity: 0;
+    transition: 0.4s;
+}
+.team .main .common .overlay .text{
+    margin-top: 60%;
+}
+.team .main .common .overlay .text i{
+    font-size: 30px;
+    color: rgb(243,129,129);
+    background: #fce38a;
+    padding: 10px;
+    margin-right: -3px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.team .main .common .overlay .text i:hover{
+    color: #ffffff;
+    background: #f38181;
+}
+.team .main .common .overlay .text .fa-facebook{
+    padding: 10px 16px 10px 16px;
+}
+.team .main .common .overlay .text .fa-pinterest-square{
+    padding: 10px 13px 10px 13px;
+}
+.team .main .common img{
+    width: 101%;
+    height: 102%;
+    display: block;
+    margin-left: -2px;
+    margin-top: -2px;
+    transition: 0.4s;
+}
+.team .main .two{
+    margin: 0 30px;
+}
+.team .main .common:hover .overlay{
+    opacity: 0.9;
+}
+.team .main .common:hover img{
+    margin-left: -12px;
+    margin-top: -11px;
+    width: 101%;
+    height: 101%;
+}
+.team .main .common:hover .overlay{
+    margin-left: -11px;
+    margin-top: -11px;
+}
+.team .designation{
+    margin-top: 30px;
+    text-align: center;
+    justify-content: space-around;
+}
+.team .designation .common h2{
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.team .designation .common p{
+    font-size: 15px;
+    font-style: italic;
+    line-height: 24px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+/*====================================
+            Team Section End
+=====================================*/
+/*====================================
+            logo Section Start
+=====================================*/
+.Comapanylogo{
+    margin-bottom: 100px;
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+.Comapanylogo .main{
+    background: url('../images/logo.png') no-repeat center;
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+}
+.Comapanylogo .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*====================================
+            logo Section End
+=====================================*/
+/*====================================
+            Work Section Start
+=====================================*/
+.work{
+    margin-bottom: 100px;
+    text-align: center;
+}
+.work .main .commondiv img{
+    width: 100%;
+}
+.work .main .Lright{
+    margin-top: -5px;
+}
+.work .right .Rright .three{
+    margin-top: -1px;
+}
+.work .right .one img{
+    height: 100% !important;
+}
+.work .main .left{
+    width: 50%;
+}
+.work .main .right{
+    width: 50%;
+    margin-left: -3px;
+}
+.work .right{
+    margin-left: -1px;
+}
+.work .main .common{
+    position: relative;
+}
+.work .main .common .overlay{
+    background: linear-gradient(to top,rgba(252, 227, 136,0.9),rgba(243, 129, 129,0.9));
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.4s;
+}
+.work .main .common .overlay .text{
+    margin-top: 25%;
+}
+.work .main .common .one12 .text{
+    margin-top: 60%;
+}
+.work .main .common .overlay .text i{
+    font-size: 30px;
+}
+.work .main .common .overlay .text h2{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 11px 0 12px 0;
+}
+.work .main .common .overlay .text p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.work .main .common img{
+    width: 100%;
+    height: 101%;
+    display: block;
+    transition: 0.4s;
+}
+.work .main .common:hover .overlay{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.work .main .three3 .overlay{
+    height: 101%;
+}
+.work .main .four4 .overlay{
+    height: 101%;
+}
+/*====================================
+            Work Section End
+=====================================*/
+/*====================================
+            2nd Speech Section Start
+=====================================*/
+.anotherSpeech{
+    margin-bottom: 100px;
+}
+.anotherSpeech .main .img{
+    width: 19%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 33px;
+    margin-left: 4%;
+}
+.anotherSpeech .main .text{
+    width: 75%;
+    text-align: left;
+    margin-top: 3%;
+}
+.anotherSpeech .main .text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #999999;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: capitalize;
+    width: 100%;
+}
+.anotherSpeech .main .text h2{
+    font-size: 24px;
+    color: #333333;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+    margin-left: 9%;
+}
+.anotherSpeech .main .text h2::after{
+    content: "";
+    height: 3px;
+    width: 8%;
+    position: absolute;
+    bottom: 15px;
+    left: -10%;
+    background-color: #f38181;
+}
+/*====================================
+            2nd Speech Section End
+=====================================*/
+/*====================================
+            Client Section Start
+=====================================*/
+.client{
+    margin-bottom: 100px;
+    background: url('../images/client.png') no-repeat center;
+    background-size: cover;
+}
+.client .overlay{
+    background-color: rgba(255, 255, 255, 0.85);
+    height: 100%;
+    padding: 100px 0;
+}
+.client .main .common{
+    width: 46%;
+}
+.client .main .one{
+    margin-right: 100px;
+    margin-left: 10px;
+}
+.client .main .three{
+    margin-right: 100px;
+    margin-left: 10px;
+}
+.client .main1{
+    margin-bottom: 95px;
+    margin-top: 120px;
+    position: relative;
+}
+.client .main .common .img img{
+    margin-right: 30px;
+    margin-top: 3px;
+}
+.client .main .common .text h2{
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.client .main .common .text .pee{
+    font-size: 15px;
+    line-height: 24px;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    position: relative;
+}
+.client .main .common .text .pee::after{
+    content: "";
+    height: 3px;
+    width: 15%;
+    position: absolute;
+    bottom: -17px;
+    left: 0%;
+    background-color: #f38181;
+}
+.client .main .common .text p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+/*====================================
+            Client Section End
+=====================================*/
+/*====================================
+            Blog Section Start
+=====================================*/
+.blog{
+    margin-bottom: 100px;
+    text-align: left;
+}
+.blog .main{
+    margin-top: 90px;
+}
+.blog .main .common{
+    width: 32%;
+    position: relative;
+    padding: 15px;
+    transition: 0.4s;
+}
+.blog .main .common:hover{
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(189,179,189,1);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(189,179,189,1);
+    box-shadow: 0px 0px 15px 5px rgba(189,179,189,1);
+    cursor: pointer;
+    border-radius: 4px;
+}
+.blog .main .common .img img{
+    width: 100%;
+}
+.blog .main .common .text{
+    background: #95e1d3;
+    width: 60px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    position: absolute;
+    left: -9px;
+    bottom: 42%;
+}
+.blog .main .common .text h1{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: -1px;
+}
+.blog .main .common .text p{
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: -7px;
+}
+.blog .main .common .h1{
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 8px 0 10px 0;
+}
+.blog .main .common .pee{
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 9%;
+    position: relative;
+}
+.blog .main .common .pee::after{
+    content: "";
+    height: 1px;
+    width: 90%;
+    position: absolute;
+    bottom: -17px;
+    left: 0%;
+    background-color: #e5e5e5;
+}
+.blog .main .common .likeComment .same i{
+    color: #95e1d3;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 6px;
+    margin-top: 2px;
+}
+.blog .main .common .likeComment .first{
+    margin-right: 15px;
+}
+.blog .main .common .likeComment .same p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+/*====================================
+            Blog Section End
+=====================================*/
+/*====================================
+            Map Section Start
+=====================================*/
+.map{
+    background: url('../images/map.png') no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+.map .overlay{
+    background:rgba(255, 255, 255,0.85);
+    height: 100%;
+    padding: 70px 0;
+}
+.map .overlay i{
+    font-size: 30px;
+    color: #f38181;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.map .overlay h1{
+    font-size: 24px;
+    color: #f38181;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+}
+.map .overlay h1::after{
+    content: "";
+    height: 3px;
+    width: 5%;
+    position: absolute;
+    bottom: -17px;
+    left: 47.5%;
+    background-color: #f38181;
+}
+/*====================================
+            Map Section End
+=====================================*/
+/*====================================
+            Footer Section Start
+=====================================*/
+.footer{
+    padding: 50px 0;
+    background: #f8f8f8;
+}
+.footer .main .first{
+    width: 38%;
+}
+.footer .main .first h1{
+    font-size: 46px;
+    color: #cccccc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.footer .main .first .pee{
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 30px 0 40px 0;
+}
+.footer .main .first h2{
+    font-size: 18px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+.footer .main .first h2::after{
+    content: "";
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: -17px;
+    left: 0%;
+    background-color: #e5e5e5;
+}
+.footer .main .first span{
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.footer .main .first .icon {
+    margin: 35px 0 30px 0;
+}
+.footer .main .first .icon p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.footer .main .first .icon .iconItems i{
+    color: #95e1d3;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 3px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.footer .main .first .icon .iconItems i:hover{
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+
+}
+.footer .main .first .feedback input{
+    border: 1px solid #e7e7e7;
+    padding: 10px 95px 10px 10px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #333333;
+}
+.footer .main .first .feedback input::placeholder{
+    font-size: 15px;
+    color: #cccccc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.footer .main .first .feedback a{
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background: #95e1d3;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.footer .main .first .feedback a:hover{
+    color: #ffffff;
+    background-color: #f38181;
+}
+.footer .main .second{
+    width: 31%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.footer .main .second h2{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+.footer .main .second .common .img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.footer .main .second .common .text{
+    height: 80%;
+    margin-top: 16px;
+}
+.footer .main .second .common .text h4{
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.footer .main .second .common .text p{
+    font-size: 13px;
+    line-height: 24px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.footer .main .third{
+    width: 25%;
+}
+.footer .main .third h2{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.footer .main .third p{
+    font-size: 13px;
+    line-height: 24px;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 10px;
+}
+/*====================================
+            Footer Section End
+=====================================*/
+/*====================================
+        Copyright Section Start
+=====================================*/
+.copyright{
+    background: #f8f8f8;
+    text-align: center;
+    padding: 20px 0;
+}
+.copyright p{
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.copyright span{
+    color: #f38181;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+/*====================================
+        Copyright Section Start
+=====================================*/
